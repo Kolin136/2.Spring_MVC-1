@@ -34,9 +34,9 @@ public class RequestParamServlet extends HttpServlet {
     String[] usernames = request.getParameterValues("username");
     for (String name : usernames) {
       System.out.println("username=" + name);
+     }
 
-
-    }
+  }
 
 
 
